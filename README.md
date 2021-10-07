@@ -20,7 +20,7 @@ Installation
 ------------
 
 ```bash
-go get -u github.com/shurcooL/vfsgen
+go get -u github.com/tiinusen/vfsgen
 ```
 
 Usage
@@ -79,7 +79,7 @@ import (
 	"log"
 
 	"example.com/project/data"
-	"github.com/shurcooL/vfsgen"
+	"github.com/tiinusen/vfsgen"
 )
 
 func main() {
@@ -103,7 +103,7 @@ Note that "dev" build tag is used to access the source filesystem, and the outpu
 Make sure it's installed and available in your PATH.
 
 ```bash
-go get -u github.com/shurcooL/vfsgen/cmd/vfsgendev
+go get -u github.com/tiinusen/vfsgen/cmd/vfsgendev
 ```
 
 Then the "//go:generate go run -tags=dev assets_generate.go" directive can be replaced with:

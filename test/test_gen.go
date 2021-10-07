@@ -1,3 +1,4 @@
+//go:build generate
 // +build generate
 
 package main
@@ -6,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/shurcooL/vfsgen"
+	"github.com/tiinusen/vfsgen"
 	"golang.org/x/tools/godoc/vfs/httpfs"
 	"golang.org/x/tools/godoc/vfs/mapfs"
 )
